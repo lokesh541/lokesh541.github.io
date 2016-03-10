@@ -32,7 +32,7 @@ html, body {
 body{
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
  //background: url(http://bit.ly/1JsXi04);
- background: url(../images/background.jpg);
+ background: url(/images/background.jpg);
 	background-size: cover;
   background-color: #000;
   background-repeat: no-repeat;
