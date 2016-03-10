@@ -1,0 +1,371 @@
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+html, body {
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+@media (min-width: 768px) {
+
+::-webkit-scrollbar {
+    width: 18px;
+    background: #1a3742;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5D6D63;
+}
+
+::-moz-selection {
+    background-color: rgba(230,224,203,0.3);
+    color: #fff8e1;
+}
+}
+
+::selection {
+    background-color: rgba(230,224,203,0.3);
+    color: #fff8e1;
+}
+
+body{
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ //background: url(http://bit.ly/1JsXi04);
+ background: url(http://bit.ly/1ondg29);
+	background-size: cover;
+  background-color: #000;
+  background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+  color: #E6E0CB;
+  overflow-x:hidden;
+}
+
+.navbar-transparent{
+  color: #fff;
+  background-color:transparent;
+  border: none;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background-color: white;
+  border: none;
+  text-transform: uppercase;
+}
+.nav-black{
+  background-color: rgb(0,0,0);
+  color: #fff;
+}
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-brand {
+	color:#fff;
+	font-family: 'Lato', sans-serif;
+}
+section {
+	margin: 0;
+	padding:0px;
+	min-height: 100%;
+	text-align: center;
+	position: relative;
+
+}
+#home{
+  background-color:rgba(52,76,79,0.5);
+  padding: 150px 0px;
+}
+#skills{
+  padding:50px 0px;
+  background-color: #173F4F;
+	min-height:80%;
+}
+#portfolio{
+	background-color:rgba(47,79,79,0.9);
+	padding: 10px;
+}
+#portfolio .row{
+  padding:10px 10px;
+}
+#contact{
+	padding: 50px 0px;
+
+}
+h2,
+h1,
+h3,
+h4,
+h5,
+h6 {
+    font-family:Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+h1 {
+
+	font-size: 5em;
+	font-family: "Roboto Slab, sans-serif";;
+	margin:50px 0px;
+}
+
+
+.scroll-down {
+  position:absolute;;
+	left:50%;
+  bottom:10px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	display: block;
+	z-index: 10;
+    text-align: center;
+}
+@media (min-width: 768px){
+	.skills{
+	height: 350px;
+	padding:70px;
+	}
+	#tools{
+	border-left:1px solid #20586f;
+	}
+
+}
+.btn-xl {
+    color: #fff;
+    background-color:rgba(0, 0, 0,0.5);;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px
+}
+.skills p{
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: larger;
+        }
+        .skills span {
+            font-weight: 900;
+        }
+section#contact {
+    background-color: #222;
+    background-image: url(../images/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat
+
+}
+section#contact .section-heading {
+    color: #fff
+}
+section#contact .form-group {
+    margin-bottom: 25px
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px
+}
+section#contact .form-group input.form-control {
+    height: auto
+}
+section#contact .form-group textarea.form-control {
+    height: 236px
+}
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none
+}
+section#contact::-webkit-input-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+section#contact:-moz-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+section#contact::-moz-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+section#contact:-ms-input-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+section#contact .text-danger {
+    color: #e74c3c
+}
+footer {
+
+    padding: 25px 0;
+    text-align: center
+}
+footer span.copyright {
+    line-height: 40px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none;
+}
+footer ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 40px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none
+}
+ul.social-buttons {
+    margin-bottom: 0
+}
+ul.social-buttons li a {
+    display: block;
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0
+}
+footer {
+  margin-top: auto;
+    padding: 25px 0;
+    text-align: center
+}
+footer span.copyright {
+    line-height: 40px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none
+}ul.social-buttons {
+    margin-bottom: 0
+}
+ul.social-buttons li a {
+    display: block;
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136
+}
+/*hover.css sweep to top*/
+.hvr-sweep-to-top {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-top:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098d1;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
+  color: white;
+}
+.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+@media (min-width: 768px) {
+.gototop{
+  display:none;
+  position: fixed;
+  bottom:10%;
+  right: 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 10%;
+  z-index: 999;
+  color: #ffffff;
+  background-color:#c9c8c5;
+
+}
+.gototop  a{
+  color: #fff;
+}
+}
+.scroll-down span{
+    position: relative;
+    color: #fff;
+  -webkit-animation-name: drop;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+	animation-name: drop;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+}
+@-webkit-keyframes drop	{
+	0%   { top:0px;  opacity: 0;}
+	30%  { top:10px; opacity: 1;}
+	100% { top:25px; opacity: 0;}
+}
+
+@keyframes drop	{
+	0%   { top:0px;  opacity: 0;}
+	30%  { top:10px; opacity: 1;}
+	100% { top:25px; opacity: 0;}
+}
