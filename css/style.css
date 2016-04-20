@@ -48,11 +48,9 @@ body{
   border: none;
   text-transform: uppercase;
 }
-
-.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
-  background-color: white;
-  border: none;
-  text-transform: uppercase;
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #f8f8f8;
+    background-color: transparent;
 }
 .nav-black{
   background-color: rgb(0,0,0);
