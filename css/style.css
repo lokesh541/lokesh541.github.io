@@ -147,6 +147,9 @@ h1 {
         .skills span {
             font-weight: 900;
         }
+.caption{
+	background-color: #fff;
+}
 section#contact {
     background-color: #222;
     background-image: url(../images/map-image.png);
