@@ -2,11 +2,13 @@ html {
 	-webkit-font-smoothing: antialiased;
 }
 
-html, body {
-	height: 100%;
-	padding: 0px;
-	margin: 0px;
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
+
 @media (min-width: 768px) {
 
 ::-webkit-scrollbar {
@@ -29,37 +31,51 @@ html, body {
     color: #fff8e1;
 }
 
-body{
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
- //background: url(http://bit.ly/1JsXi04);
- background: url(../images/background.jpg);
-	background-size: cover;
-  background-color: #000;
-  background-repeat: no-repeat;
-	background-position: top center;
-	background-attachment: fixed;
-  color: #E6E0CB;
-  overflow-x:hidden;
+body {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: url(../images/background.jpg);
+    background-size: cover;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    color: #e6e0ce;
+    overflow-x: hidden;
 }
 
+/*Navbar*/
 .navbar-transparent{
   color: #fff;
   background-color:transparent;
   border: none;
   text-transform: uppercase;
 }
+
 .nav-black{
   background-color: rgb(0,0,0);
   color: #fff;
 }
+
 .navbar-default .navbar-nav>li>a,.navbar-default .navbar-brand {
 	color:#fff;
 	font-family: 'Lato', sans-serif;
 }
+
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #f8f8f8;
     background-color: transparent;
 }
+
+/*content*/
+
+header {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    text-align: center;
+    position: relative;
+}
+
 section {
 	margin: 0;
 	padding:0px;
@@ -68,26 +84,33 @@ section {
 	position: relative;
 
 }
+
 #home{
   background-color:rgba(52,76,79,0.5);
-  padding: 150px 0px;
+  padding: 150px 0;
 }
+
 #skills{
-  padding:50px 0px;
-  background-color: #173F4F;
+  padding:50px 0;
+  background-color: #fff;
+  color: #000;
 	min-height:80%;
 }
+
 #portfolio{
 	background-color:rgba(47,79,79,0.9);
 	padding: 10px;
 }
+
 #portfolio .row{
   padding:10px 10px;
 }
+
 #contact{
-	padding: 50px 0px;
+	padding: 50px 0;
 
 }
+
 h2,
 h1,
 h3,
@@ -98,26 +121,28 @@ h6 {
     text-transform: uppercase;
     font-weight: 400;
 }
+
 h1 {
 
 	font-size: 5em;
 	font-family: "Roboto Slab, sans-serif";;
-	margin:50px 0px;
+	margin:50px 0;
 }
 
 
 .scroll-down {
-  position:absolute;;
-	left:50%;
+  position:absolute;
+  left:50%;
   bottom:10px;
-	border: 2px solid #fff;
-	border-radius: 50%;
-	height: 50px;
-	width: 50px;
-	display: block;
-	z-index: 10;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: block;
+  z-index: 10;
     text-align: center;
 }
+
 @media (min-width: 768px){
 	.skills{
 	height: 350px;
@@ -128,6 +153,7 @@ h1 {
 	}
 
 }
+
 .btn-xl {
     color: #fff;
     background-color:rgba(0, 0, 0,0.5);;
@@ -139,6 +165,7 @@ h1 {
     font-size: 18px;
     padding: 20px 40px
 }
+
 .skills p{
             text-decoration: underline;
             font-weight: bold;
@@ -147,9 +174,11 @@ h1 {
         .skills span {
             font-weight: 900;
         }
-.caption{
+
+.caption {
 	background-color: #fff;
 }
+
 section#contact {
     background-color: #222;
     background-image: url(../images/map-image.png);
@@ -157,64 +186,78 @@ section#contact {
     background-repeat: no-repeat
 
 }
+
 section#contact .section-heading {
     color: #fff
 }
+
 section#contact .form-group {
     margin-bottom: 25px
 }
+
 section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px
 }
+
 section#contact .form-group input.form-control {
     height: auto
 }
+
 section#contact .form-group textarea.form-control {
     height: 236px
 }
+
 section#contact .form-control:focus {
     border-color: #fed136;
     box-shadow: none
 }
+
 section#contact::-webkit-input-placeholder {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
+
 section#contact:-moz-placeholder {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
+
 section#contact::-moz-placeholder {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
+
 section#contact:-ms-input-placeholder {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
+
 section#contact .text-danger {
     color: #e74c3c
 }
+
 footer {
 
     padding: 25px 0;
     text-align: center
 }
+
 footer span.copyright {
     line-height: 40px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     text-transform: none;
 }
+
 footer ul.quicklinks {
     margin-bottom: 0;
     line-height: 40px;
@@ -222,9 +265,11 @@ footer ul.quicklinks {
     text-transform: uppercase;
     text-transform: none
 }
+
 ul.social-buttons {
     margin-bottom: 0
 }
+
 ul.social-buttons li a {
     display: block;
     background-color: #222;
@@ -239,30 +284,37 @@ ul.social-buttons li a {
     -moz-transition: all .3s;
     transition: all .3s
 }
+
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #fed136
 }
+
 .btn:focus,
 .btn:active,
 .btn.active,
 .btn:active:focus {
     outline: 0
 }
+
 footer {
   margin-top: auto;
     padding: 25px 0;
     text-align: center
 }
+
 footer span.copyright {
     line-height: 40px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     text-transform: none
-}ul.social-buttons {
+}
+
+ul.social-buttons {
     margin-bottom: 0
 }
+
 ul.social-buttons li a {
     display: block;
     background-color: #222;
@@ -277,11 +329,13 @@ ul.social-buttons li a {
     -moz-transition: all .3s;
     transition: all .3s
 }
+
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #fed136
 }
+
 /*hover.css sweep to top*/
 .hvr-sweep-to-top {
   display: inline-block;
@@ -298,6 +352,7 @@ ul.social-buttons li a:active {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
 .hvr-sweep-to-top:before {
   content: "";
   position: absolute;
@@ -318,31 +373,38 @@ ul.social-buttons li a:active {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
   color: white;
 }
+
 .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
+
 @media (min-width: 768px) {
 .gototop{
   display:none;
   position: fixed;
   bottom:10%;
   right: 10px;
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   border-radius: 10%;
   z-index: 999;
-  color: #ffffff;
+  color: #fff;
   background-color:#c9c8c5;
 
 }
+
 .gototop  a{
   color: #fff;
 }
 }
+
+/*Drop animation */
+
 .scroll-down span{
     position: relative;
     color: #fff;
@@ -359,6 +421,7 @@ ul.social-buttons li a:active {
 	animation-iteration-count: infinite;
 	animation-play-state: running;
 }
+
 @-webkit-keyframes drop	{
 	0%   { top:0px;  opacity: 0;}
 	30%  { top:10px; opacity: 1;}
